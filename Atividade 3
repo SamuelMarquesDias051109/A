@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro x
+    escreva ("Digite o numero: \n")
+    leia (x)
+    se(x%2 == 0)
+    escreva("Este numero e par")
+    senao
+    escreva("Este numero e impar")
+
+
+  }
+}
