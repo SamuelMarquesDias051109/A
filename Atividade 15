@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    real base, resultado
+    inteiro espoente, i
+    escreva (" Digite uma base: \n")
+    leia (base)
+    escreva (" Digite uma espoente: \n")
+    leia (espoente)
+    
+    resultado = 1
+
+    para (i =1; i <= espoente; i++) {
+      resultado = resultado * base}
+      escreva ( base, "elevado a", espoente, " é ", resultado, "\n")
+
+    
+  }
+}
