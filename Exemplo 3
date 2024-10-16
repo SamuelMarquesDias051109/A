@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    cadeia resposta
+    inteiro c, conversao
+    
+
+     faca{ 
+      escreva (" Digite uma temperatura: \n")
+      leia (c)
+      conversao = (c*1.8)+32
+
+      escreva ("A temperatura em Fahrenheit é: \n", conversao) 
+       escreva ("Deseja repetir s/n \n")
+      leia(resposta)
+       }
+     
+    
+       enquanto(resposta == "s")
+  }
+}
