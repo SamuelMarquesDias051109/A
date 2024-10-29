@@ -1,0 +1,10 @@
+nome = input("Digite o nome do funcionario: ")
+salario = float(input("Digite um preço: "))
+reajuste = (salario * 0.2)
+resultado = salario + reajuste
+
+print ("\n")
+
+print ("Sálario Antigo: ", salario)
+print ("Valor de Reajuste: ", reajuste)
+print ("Sálario novo: ", resultado)
