@@ -1,0 +1,7 @@
+nome = input ("Digite seu nome:")
+idade = input ("Digite sua idade:")
+UF = input ("Digite seu UF:")
+
+print ("Seu nome: " + nome)
+print ("Sua idade: " + idade)
+print ("Seu UF: " + UF)
