@@ -1,0 +1,8 @@
+celsios = float(input("Digite uma temperatura em celsios: "))
+kelvin = celsios + 273.15
+fahrenheit = celsios * 1.8 + 32
+
+print("\n")
+
+print ("A temperatura em kelvin é: ", kelvin)
+print ("A temperatura em fahrenheit é: ", fahrenheit)
