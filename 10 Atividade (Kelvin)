@@ -1,0 +1,4 @@
+celsios = float(input("Digite uma temperatura em celsios: "))
+kelvin = celsios + 273.15
+
+print ("A temperatura em kelvin é: ", kelvin)
