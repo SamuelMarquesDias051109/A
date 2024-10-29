@@ -1,0 +1,12 @@
+investimento = float(input("Digite o valor do investimento: "))
+duracao = float(input("Digite a duraçao: "))
+taxa = 0.02
+valor_final  = investimento * (1 + taxa) ** duracao
+
+print ("\n")
+
+
+print ("Valor inicial: ", investimento)
+print ("Periodo: ", duracao)
+print ("Taxa: ", taxa)
+print ("Valor final: ", valor_final)
