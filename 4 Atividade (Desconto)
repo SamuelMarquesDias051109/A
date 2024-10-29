@@ -1,0 +1,10 @@
+nome = input("Digite o nome de um produto: ")
+preco = int(input("Digite o preço: "))
+desconto = 0.1
+
+
+print ("\n")
+
+print ("nome do produto: ", nome)
+print ("preço: ", preco)
+print ("Desconto de 10%: ", preco * desconto)
