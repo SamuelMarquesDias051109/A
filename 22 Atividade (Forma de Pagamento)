@@ -1,0 +1,22 @@
+nome = input("Digite o nome do produto: ")
+preco = float(input("Digite o preço do produto: "))
+qte = int(input("Digite a quantidade: "))
+qte_1 = preco * qte 
+resposta =input ("Digite a forma de pagamento :")
+
+if resposta == "pix" : 
+    print ("Desconto: 10%")
+    valor_total = qte_1 - (qte_1 * 0.10)
+    
+if resposta == "Cartao 1x" :
+    print ("Pagamento de:")
+    valor_total = qte_1 *preco
+    
+if resposta == "Cartao 2x" : 
+    print ("Juros de: 5%")
+    valor_total = qte_1 + (qte_1 * 0.10)
+    
+print ("Nome do produto: ", nome)
+print ("Preço: R$", preco)
+print ("Quantidade: ", qte)
+print ("Valor total: R$", valor_total)
