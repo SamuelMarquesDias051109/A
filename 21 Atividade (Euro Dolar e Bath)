@@ -1,0 +1,14 @@
+num1 = float(input("Digite um valor em real: "))
+Dolar =  num1 / 5.76
+Euro =  num1 / 6.26
+Bath = num1 * 5.48
+opção = input("Dolar, Euro ou Bath Tailandes?")
+
+if opção == "Dolar" :
+    print ("O valor convertido é: ", Dolar)
+    
+if opção == "Bath" :
+     print ("O valor convertido é: ", Bath)
+
+if opção == "Euro" :
+    print ("O valor convertido é: ", Euro)
