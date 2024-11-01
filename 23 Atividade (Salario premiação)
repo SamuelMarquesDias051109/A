@@ -1,0 +1,24 @@
+nome = input("Digite seu nome: ")
+salario = float(input("Digite o seu sálario: "))
+meta = int(input("Digite a Meta alcançada"))
+
+print ()
+print ("Nome do funcionario: ", nome)
+print ("Salário ", salario)
+print (" Meta atingida: ", meta)
+    
+if meta >= 50000 and salario < 3000:
+    premiacao_2 = salario * 0.20
+    print ("Ira receber: ", premiacao_2)
+    
+elif meta >= 50000 and salario > 5000:
+    premiacao_3 = salario * 0.05
+    print ("Ira receber: ", premiacao_3)
+    
+elif meta >= 50000 and salario >= 3000 and salario <= 5000:
+    premiacao_4 = salario * 0.10
+    print ("Ira receber: ", premiacao_4)
+
+else:
+    print ("Sem premiação")
+
