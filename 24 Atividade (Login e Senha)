@@ -1,0 +1,32 @@
+Login = input("Digite o Login ")
+Senha = int(input("Digite a senha: "))
+
+if Login == "123" :
+    print ("Login completo")
+    
+if Senha == "123" :
+    print ("Senha Coreta")
+    
+nome = input("Digite o nome do produto: ")
+preco = float(input("Digite o preço do produto: "))
+qte = int(input("Digite a quantidade: "))
+resposta =input ("Digite a forma de pagamento :")
+qte_1 = qte * preco
+
+if resposta == "pix" : 
+    print ("Desconto: 15%")
+    valor_total = qte_1 - (qte_1 * 0.15)
+    print ("O Desconto é: ", valor_total)
+    
+if resposta == "cartao1x" : 
+    print ("Sem Desconto")
+    
+if resposta == "cartao2x" : 
+    print ("Juros: 5%")
+    valor_total = qte_1 + (qte_1 * 0.05)
+    print ("O juros é: ", valor_total)
+      
+print ("Nome do produto: \n", nome)
+print ("Preço: R$", preco)
+print ("Quantidade: ", qte)
+print ("Valor total: ", valor_total)
