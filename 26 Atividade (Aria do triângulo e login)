@@ -1,0 +1,16 @@
+Login = input("Crie seu usuario ")
+Senha = int(input("Crie sua senha: "))
+resposta1 = Login
+resposta2 = Senha
+
+tela1 = input("Digite o login cadastrado: ")
+tela2 = int(input("Digite a Senha cadastrado"))
+
+if tela1 == resposta1 and tela2 == resposta2:
+    base = float(input("Digite a base: "))
+    altura = float (input("Digite a altura : "))
+    calculo = (base * altura)/2 
+    print ("A área do triângulo é ", calculo)
+    
+else:
+    print ("Senha e Login invalidos!")
