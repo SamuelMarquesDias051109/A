@@ -1,0 +1,12 @@
+nome1 = input("Digite um nome: ")
+nome2 = int(input("Digite outro nome: ")
+idade1 = int(input("Digite a idade: "))
+idade2 =int(input("Digite a idade :"))
+ida1 = idade1
+ida2 = idade2
+
+if ida1 == ida2:
+    print ("As duas pessoas tem a mesma idade")
+    
+else :
+    print ("As duas pessoas não tem a mesma idade")
