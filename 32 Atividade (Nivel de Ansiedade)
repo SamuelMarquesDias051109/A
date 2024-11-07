@@ -1,0 +1,32 @@
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+
+Q1 = float(input(" Sentir-se nervoso/a, ansioso/a ou muito tenso/a : 1- sim 0- nao"))
+Q2 = float(input("Não ser capaz de impedir ou de controlar as preocupaçoes : 1- sim 0- nao"))
+Q3 = float(input("Preocupar-se muito com diversas coisas : 1- sim 0- nao"))
+Q4 = float(input("Dificuldade para relaxar : 1- sim 0- nao"))
+Q5 = float(input("Se sente triste com muita frequencia?"))
+Q6 = float(input("Ficar facilmente aborrecido/a ou irritado/a : 1- sim 0- nao"))
+Q7 = float(input("Se sente sozinho?"))
+Q8 = float(input("Sente que perde o controle?"))
+Q9 = float(input("Na última semana você se incomodou com Sensação de Calor? : 1- sim 0- nao"))
+Q10 = float(input("Na última semana você se incomodou com Inquietação nas Pernas? : 1- sim 0- nao"))
+Q11 = float(input("Na última semana você se incomodou com Dificuldade em Relaxar? : 1- sim 0- nao"))
+Q12 = float(input("Na última semana você ficou com Medo de que algo de ruim aconteça ? : 1- sim 0- nao"))
+
+soma = Q1 + Q2 + Q3 + Q4 + Q5 + Q6 + Q7 + Q8 + Q9 + Q10 + Q11 + Q12
+
+print ("Nome: ", nome )
+print ("Idade: ", idade)
+
+if soma <= 5 :
+    print ("Nivel baixo de ansiedade")
+    
+if soma >= 6 and soma <= 8 :
+    print ("Nivel moderado de ansiedade")
+    
+if soma >= 9 and soma <= 10:
+    print ("Nivel alto de ansiedade")
+    
+if soma >= 10 and soma >= 12:
+    print ("SOCOOOOOOOOOOOOOOOOOROOOOOOOOOO")
