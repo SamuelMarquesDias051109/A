@@ -1,0 +1,12 @@
+nome1 = input("Digite o nome do Aluno: ")
+nota1 = int(input("Digite a nota do Aluno: "))
+nome2 = input("Digite o nome do Aluno: ")
+nota2 = int(input("Digite a nota do Aluno: "))
+nome3 = input("Digite o nome do Aluno: ")
+nota3 = int(input("Digite a nota do Aluno: "))
+
+print (" Nome :", nome1, "Nota : ", nota1 )
+print ("\n")
+print (" Nome :", nome2, "Nota : ", nota2 )
+print ("\n")
+print (" Nome :", nome3, "Nota : ", nota3 )
