@@ -1,0 +1,15 @@
+while True:
+    num1 = float(input("Digite um valor em real: "))
+    Dolar =  num1 / 5.76
+    Euro =  num1 / 6.26
+    opção = input("Em qual moeda sera feita a repetição1?")
+
+    if opção == "Dolar" :
+       print ("O valor convertido é: ", Dolar)
+    elif opção == "Euro" :
+         print ("O valor convertido é: ", Euro)
+    prtg = input("Deseja fazer a converçao  novamente")
+    if prtg == "sim" :
+        continue
+    else :
+        break
