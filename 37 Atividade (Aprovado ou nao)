@@ -1,0 +1,18 @@
+nome = input("Digite o nome do Aluno: ")
+num1 = int(input("Digite a nota do primeiro bimestre: "))
+num2 = int(input("Digite a nota do segundo bimestre: "))
+num3 = int(input("Digite a nota do terceiro bimestre: "))
+num4 = int(input("Digite a nota do quarto bimestre: "))
+soma = num1 + num2 + num3 + num4
+
+if soma >= 60 :
+    resposta = ("Aprovado")
+elif soma < 40 :
+    resposta = ("Reprovado")
+else :
+    resposta = ("Recuperação")
+    
+print ("\n")
+print ("Aluno: ", nome)
+print ("Nota Total: ", soma)
+print ("Situação final: ", resposta)
