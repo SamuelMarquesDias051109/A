@@ -1,0 +1,10 @@
+contador = 1
+numeros = []
+while contador <= 4 :
+    numero = input("Digite um numero :")
+    numeros.append(numero)
+    contador = contador + 1
+    
+print ("\nNumeros inseridos")
+for numero in numeros :
+    print(numero)
