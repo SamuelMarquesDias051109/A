@@ -1,0 +1,15 @@
+contador = 1
+nomes = []
+idades = []
+while contador <= 3 :
+    nome = input("Digite um nome :")
+    nomes.append(nome)
+    idade = int(input("Digite a idade"))
+    idades.append(idade)
+    contador = contador + 1
+
+print ("\nNomes e idades inseridos")
+for idade in idades :
+    print(idade)
+for nome in nomes :
+    print(nome)
