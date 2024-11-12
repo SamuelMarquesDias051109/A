@@ -1,0 +1,15 @@
+contas = []
+
+while True:
+    login = input("Digite o nome de Usuario: ")
+    senha = input("Digite a senha: ")
+    contas.append((login, senha))
+    
+    continuar = input("Deseja fazer um novo cadastro? (s/n): ")
+   
+    if continuar != 's' and continuar == 'n' :
+        break
+    
+print ("\nNomes de Usuario inseridos")
+for conta in contas :
+    print(conta[0], conta[1])
