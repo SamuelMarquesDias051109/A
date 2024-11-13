@@ -1,0 +1,32 @@
+vendas = []
+
+while True:
+    # Receber os dados do produto
+    nome_produto = input('Insira o nome do produto: ')
+    preco_produto = float(input('Insira o preço do produto: R$ '))
+    
+    # Perguntar pela forma de pagamento
+    forma_pagamento = input('Escolha a forma de pagamento (pix/cartão): ')
+    
+    # Calcular o desconto com base na forma de pagamento
+    if forma_pagamento == 'pix':
+        desconto = preco_produto * 0.15  # 15% de desconto para pix
+    else:
+        desconto = 0  # Sem desconto para cartão
+    
+    # Calcular o valor a pagar
+    valor_a_pagar = preco_produto - desconto
+    
+    # Armazenar as informações da venda
+    vendas.append([nome_produto, preco_produto, desconto, valor_a_pagar])
+    
+    # Perguntar se o usuário quer fazer uma nova venda
+    continuar = input('Deseja realizar uma nova venda? (s/n): ')
+    
+    if continuar != 's':
+        break  # Se a resposta não for 's', o loop termina
+
+# Exibir as vendas cadastradas
+print("\n--- Vendas Registradas ---")
+for venda in vendas:
+    print(f'Produto: {venda[0]} | Preço: R$ {venda[1]} | Desconto: R$ {venda[2]} | Valor a Pagar: R$ {venda[3]}')
