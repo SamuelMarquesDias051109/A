@@ -1,0 +1,17 @@
+while  True :
+    perg = input("Digite qual calculo sera realizado? Área do Triangulo, Área do Quadrado e valor de Pi")
+    if perg == "area do triangulo" :
+        base = float(input("Digite o valor da base: "))
+        altura = float(input("Digite o valor da altura: "))
+        calculo = base * altura / 2
+        
+    elif perg == "area do quadrado" :
+        lado = float(input("Digite o valor do lado: "))
+        calculo = lado ** 2
+        
+    else :
+        calculo = 3.14159
+        
+    print ("Cálculo: ", perg)
+    print ("Resposta: ", calculo)
+    
