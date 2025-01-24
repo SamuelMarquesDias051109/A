@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double metros, centimetros;
+
+        System.out.print("Digite o valor em metros: ");
+        metros = scanner.nextDouble();
+
+        centimetros = metros * 100;
+
+        System.out.println("O valor em centímetros é: " + centimetros);
+
+    }
+}
